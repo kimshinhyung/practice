@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김신형"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n\u003cstrong\u003e\n\u003c각 기업의 노드의 색\u003e\n\u003c/strong\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #1e90ff;\"\u003e\n삼성\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #c0c0c0;\"\u003e\n롯데\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #f0e68c;\"\u003e\n한화\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #90ee90;\"\u003e\n현대중공업\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #2e8b57;\"\u003e\n현대자동차\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #ee82ee;\"\u003e\nLG\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #ff8c00;\"\u003e\n신세계\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #ff8c00;\"\u003e\nSK\n\u003c/span\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n\u003cspan style\u003d\"background-color : #00ff7f;\"\u003e\nGS\n\u003c/span\u003e\n\u003c/p\u003e",
+    "intro": "삼성, 롯데, 신세계, 한화, 현대중공업, 현대자동차, LG, SK, GS의 지분율을 살펴봄으로써 \n각 기업에서 누가 지분을 가지고 있고 기업들간의 관계도 살펴볼 수 있다.",
+    "title": "재벌의 전체 지분율 시각화"
+  },
+  "legend": {
+    "edgeLabel": "기업 혹은 인물과 기업간의 관계",
+    "colorLabel": "기업별로 색을 다르게 표현",
+    "nodeLabel": "기업의 지분율을 소유한 기업 혹은 인물"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
